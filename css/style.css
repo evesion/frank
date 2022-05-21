@@ -3,9 +3,9 @@
  * Author: Frank Geraets
  * Author URI: https://evesion.com
  * Description: Frank's Personal Website
- * Version: 1.0
+ * Version: 1.4
  * Bootstrap v4.1 (http://getbootstrap.com)
- * Copyright 2021 evesion.com
+ * Copyright 2022 evesion.com
  -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -302,7 +302,7 @@ body.menu-open {
 }
 
 .cnav .logo-holder img {
-    width: 2.4rem;
+    width: 10.4rem;
 }
 
 .cnav .social-media {

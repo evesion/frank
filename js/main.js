@@ -1,14 +1,14 @@
 "use strict"
 
 /* Theme Selector */
-var theme2 = '<link rel="stylesheet" type="text/css" href="css/bronze-theme.css">';
+var theme2 = '<link rel="stylesheet" type="text/css" href="css/purple-theme.css">';
 var theme3 = '<link rel="stylesheet" type="text/css" href="css/organic-theme.css">';
 
 var themeBtn1 = '<div class="bctheme t1"></div>';
 var themeBtn2 = '<div class="bctheme t2"></div>';
 var themeBtn3 = '<div class="bctheme t3"></div>';
 var themeBtnHolder = '<div class="bctheme-holder">'+themeBtn1+themeBtn2+themeBtn3+'</div>';
-var themeBtnStyle = '<style>.bctheme-holder{display:inline-block;position:fixed;width:1.5rem;top:50%;right:1rem;z-index:999999} .bctheme{display:inline-block;width:1.5rem;height:1.5rem;border:0.2rem solid #fff;border-radius:2rem;cursor:pointer;box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);} .bctheme.t1{background-color:#4ECCA3} .bctheme.t2{background-color:#A97753} .bctheme.t3{background-color:#FFF96C}</style>';
+var themeBtnStyle = '<style>.bctheme-holder{display:inline-block;position:fixed;width:1.5rem;top:50%;right:1rem;z-index:999999} .bctheme{display:inline-block;width:1.5rem;height:1.5rem;border:0.2rem solid #fff;border-radius:2rem;cursor:pointer;box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.2);} .bctheme.t1{background-color:#4ECCA3} .bctheme.t2{background-color:#7332a8} .bctheme.t3{background-color:#FFF96C}</style>';
 $('body').prepend(themeBtnStyle+themeBtnHolder);
 
 var getTheme = localStorage.getItem("bctheme");
@@ -38,7 +38,7 @@ themeBtn.on('click',function(e){
     }
 });
 function removeOtherStyles(){
-    $('link[href="css/bronze-theme.css"]', 'head').remove();
+    $('link[href="css/purple-theme.css"]', 'head').remove();
     $('link[href="css/organic-theme.css"]', 'head').remove();
 }
 /* Theme Selector End */
