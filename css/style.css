@@ -302,7 +302,7 @@ body.menu-open {
 }
 
 .cnav .logo-holder img {
-    width: 10.4rem;
+    width: 15.4rem;
 }
 
 .cnav .social-media {
@@ -348,7 +348,7 @@ body.menu-open {
 .header {
     background-color: #232931;
     text-align: center;
-    padding: 16rem 3.5rem 14rem;
+    padding: 16rem 3.5rem 16rem;
 }
 
 .header .mouse-scroll {
@@ -2016,7 +2016,7 @@ body.menu-open {
     }
 
     .cnav .logo-holder img {
-        width: 2.2em;
+        width: 8.2em;
     }
 
     .cr-btn {
@@ -2317,7 +2317,7 @@ body.menu-open {
     }
 
     .cnav .logo-holder img {
-        width: 2rem;
+        width: 6rem;
     }
 
     .cnav .social-media {
