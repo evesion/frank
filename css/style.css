@@ -283,6 +283,7 @@ body.menu-open {
     text-decoration: none;
 }
 
+
 /* -----------------------------------
     2 - Header Styles
 ------------------------------------*/
@@ -318,7 +319,7 @@ body.menu-open {
 }
 
 .cnav .social-media .social-link-holder {
-    text-align: left;
+    text-align: right;
 }
 
 .cnav .social-media .social-link-holder a {
