@@ -3,9 +3,9 @@
  * Author: Frank Geraets
  * Author URI: https://evesion.com
  * Description: Frank's Personal Website
- * Version: 1.0
- * Bootstrap v4.1 (http://getbootstrap.com)
- * Copyright 2021 evesion.com
+ * Version: 3.1
+ * Bootstrap v5.1.3 (http://getbootstrap.com)
+ * Copyright 2022 evesion.com
  -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -283,6 +283,7 @@ body.menu-open {
     text-decoration: none;
 }
 
+
 /* -----------------------------------
     2 - Header Styles
 ------------------------------------*/
@@ -302,7 +303,7 @@ body.menu-open {
 }
 
 .cnav .logo-holder img {
-    width: 2.4rem;
+    width: 15.4rem;
 }
 
 .cnav .social-media {
@@ -318,7 +319,7 @@ body.menu-open {
 }
 
 .cnav .social-media .social-link-holder {
-    text-align: left;
+    text-align: right;
 }
 
 .cnav .social-media .social-link-holder a {
@@ -348,7 +349,7 @@ body.menu-open {
 .header {
     background-color: #232931;
     text-align: center;
-    padding: 16rem 3.5rem 14rem;
+    padding: 16rem 3.5rem 16rem;
 }
 
 .header .mouse-scroll {
@@ -604,6 +605,13 @@ body.menu-open {
     margin-bottom: 3rem;
 }
 
+.boxy h2.title {
+    font-size: 4.1rem;
+    line-height: 3.4rem;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
 .boxy .text ul {
     padding: 0;
     margin: 0;
@@ -663,6 +671,10 @@ body.menu-open {
     color: #232931;
 }
 
+.boxy.c1-color h2.title {
+    color: #232931;
+}
+
 .boxy.c1-color .text {
     color: rgba(0, 0, 0, 0.66);
 }
@@ -700,6 +712,10 @@ body.menu-open {
 }
 
 .boxy.default-color h1.title {
+    color: #EEEEEE;
+}
+
+.boxy.default-color h2.title {
     color: #EEEEEE;
 }
 
@@ -864,6 +880,12 @@ body.menu-open {
 .lg-text .other-color {
     color: #4ECCA3;
     font-family: "Lalezar", cursive;
+}
+
+.normal-text h1 {
+    color: rgba(255, 255, 255, 0.66);
+    font-size: 1.26rem;
+    line-height: 2.5rem;
 }
 
 .normal-text p {
@@ -1685,6 +1707,11 @@ body.menu-open {
         line-height: 2.8rem;
     }
 
+    .normal-text h1 {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
     .normal-text p {
         font-size: 1.1rem;
         line-height: 1.8rem;
@@ -2016,7 +2043,7 @@ body.menu-open {
     }
 
     .cnav .logo-holder img {
-        width: 2.2em;
+        width: 8.2em;
     }
 
     .cr-btn {
@@ -2035,6 +2062,15 @@ body.menu-open {
     .lg-text {
         font-size: 2.6rem;
         line-height: 1.9rem;
+    }
+    .normal-text h1 {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    .normal-text h1 {
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
 
     .normal-text p {
@@ -2317,7 +2353,7 @@ body.menu-open {
     }
 
     .cnav .logo-holder img {
-        width: 2rem;
+        width: 6rem;
     }
 
     .cnav .social-media {
